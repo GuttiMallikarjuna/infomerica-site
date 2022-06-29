@@ -56,7 +56,7 @@ function verifyemail(){
         localStorage.setItem('email',email.value);
         localStorage.setItem('mobile',mobile.value);
         
-        if(user=="" || password=="" || email=="" || mobile==""){
+        if(user.value=="" || password.value=="" || email.value=="" || mobile.value==""){
             alert("Please fill all the fields are mandatory!..");
         }else{
          document.write(`
